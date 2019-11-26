@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Css Link-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--jQuery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Portfolio</title>
+
+    <style>
+        .containerImage {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-left: 15px;
+            border-radius: 5px;
+            height: 200px;
+            width: 200px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #303C6C;
+        }
+
+        .containerImage:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body class="otherColor">
+    <div class="container-fluid">
+
+
+        <div class="row p-1 mb-3 text-dark border-bottom border-secondary header">
+
+            <div class="col-sm-2">
+
+            </div>
+
+
+            <div class="col-xs-3 align-self-end pt-2 pl-2 pr-2 text-white rounded border border-secondary">
+                <h2>WG</h2>
+
+            </div>
+
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-xs-2 ">
+                <nav class="navbar fixed-top-right mr-4">
+                    <a class="navbar-brand" href="index.html">About</a>
+                    <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                    <a class="navbar-brand" href="contact.html">Contact</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container bg-white border border-secondary">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="about mt-4">Portfolio</h2>
+                <hr>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-9">
+                
+                <!-- <h2 class="text-center ">Front-End Projects</h2> -->
+                <button type="button" class="btn btn-secondary btn-lg btn-block about front-button">Front-End</button>  
+
+                <div class="row front">
+                    <div class="col-sm-10">
+                        <div id="image-holder"></div>        
+                    </div>
+                </div>
+                
+
+                <button type="button" class="btn btn-secondary btn-lg btn-block about back-button">Back-End</button>
+
+                <div class="row back">
+                    <div class="col-sm-10">
+                        <div id="image-holder2"></div>        
+                    </div>
+                </div>
+            </div>
+          
+        </div> <br><br>
+
+        <div class="front-end">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-6 col-sm-3 containerImage">
+                        <img src="assets/images/musicalityLogo.JPG" alt="MusicalityProj"
+                            class="rounded border border-dark" width="200" height="200">
+                        <a href="https://philliplaub.github.io/Group-Project/" target="_blank">
+                            <div class="overlay">
+                                <div class="text">Musicality</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-1 col-sm-3"></div>
+                    <div class="col-3 col-sm-4 containerImage">
+                        <img src="assets/images/Giftastic.JPG" id="mblRespons" alt="RPG Game" class="rounded border border-dark"
+                            width="200" height="200">
+                        <a href="https://wgonz94.github.io/GifTastic/" target="_blank" rel="noopener noreferrer">
+                            <div class="overlay">
+                                <div class="text">Giftastic</div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <br>
+                <div class="row mb-3">
+
+                    <div class="col-sm-2"></div>
+                    <div class="col-6 col-sm-3 containerImage">
+                        <img src="assets/images/TrainScheduler.JPG" alt="TrainScheduler"
+                            class="rounded border border-dark " width="200" height="200">
+                        <a href="https://wgonz94.github.io/Train-Scheduler-/" target="_blank" rel="noopener noreferrer">
+                            <div class="overlay">
+                                <div class="text">Train Scheduler</div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-1 col-sm-3"></div>
+                    <div class="col-3 col-sm-4 containerImage">
+
+                        <img src="assets/images/psychicgame.JPG" id="mblRespons" alt="Psychic Game" class="rounded border border-dark"
+                            width="200" height="200">
+                            <a href="https://wgonz94.github.io/Psychic-Game/" target="_blank" rel="noopener noreferrer"><div class="overlay">
+                           <div class="text">Psychic Game</div>
+                        </div></a>
+
+                    </div>
+                </div>
+                <br>
+                <!-- <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-6 col-sm-3 containerImage">
+                        <img src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors"
+                            class="rounded border border-dark" width="200" height="200">
+                            <div class="overlay">
+                                    <div class="text">Rock Paper Scissors</div>
+                                  </div>
+                        
+                    </div>
+
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="back-end">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-6 col-sm-3 containerImage">
+                            <img src="assets/images/movie-this2.JPG" alt="LIRI-Node.js"
+                                class="rounded border border-dark" width="200" height="200">
+                            <a href="https://github.com/wgonz94/liri-node-app" target="_blank">
+                                <div class="overlay">
+                                    <div class="text">LIRI</div>
+                                </div>
+                            </a>
+    
+                        </div>
+                         <div class="col-1 col-sm-3"></div>
+                        <div class="col-3 col-sm-4 containerImage">
+                            <img src="assets/images/bamazonManagerOpt2.JPG" id="mblRespons" alt="RPG Game" class="rounded border border-dark"
+                                width="200" height="200">
+                            <a href="https://github.com/wgonz94/Node.js-MySQL-Bamazon" target="_blank" rel="noopener noreferrer">
+                                <div class="overlay">
+                                    <div class="text">Bamazon</div>
+                                </div>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <br><br>
+                    
+                    <div class="row mb-3">
+    
+                        <div class="col-sm-2"></div>
+                        <div class="col-6 col-sm-3 containerImage">
+                            <img src="assets/images/deployed-homepage.JPG" alt="Friend-Finder"
+                                class="rounded border border-dark " width="200" height="200">
+                            <a href="https://github.com/wgonz94/Friend-Finder" target="_blank" rel="noopener noreferrer">
+                                <div class="overlay">
+                                    <div class="text">Friend Finder</div>
+                                </div>
+                            </a>
+    
+                        </div>
+    
+                        <div class="col-1 col-sm-3"></div>
+                        <div class="col-3 col-sm-4 containerImage">
+    
+                            <img src="assets/images/burger-homepage.JPG" id="mblRespons" alt="Burger App" class="rounded border border-dark"
+                                width="200" height="200">
+                                <a href="https://github.com/wgonz94/burger" target="_blank" rel="noopener noreferrer"><div class="overlay">
+                               <div class="text">Devour the Burger! App</div>
+                            </div></a>
+    
+                        </div>
+                    </div>
+                    <br>
+                    <!-- <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-6 col-sm-3 containerImage">
+                            <img src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors"
+                                class="rounded border border-dark" width="200" height="200">
+                                <div class="overlay">
+                                        <div class="text">Rock Paper Scissors</div>
+                                      </div>
+                            
+                        </div>
+    
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    
+
+        <br>
+        <br>
+
+
+
+
+    </div>
+</body>
+<br><br>
+<div>
+    <footer class="w-auto p-3 bg-secondary fixed-bottom">
+        <h6 class="text-center">WG - 2019</h6>
+    </footer>
+</div>
+
+<script src="assets/javascript/function.js"></script>
+
+
+</html>

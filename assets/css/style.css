@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:lightslategray;
+  
+}
+header{
+    background: url("images/musicality.JPG");
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+  
+}
+nav{
+  border-bottom: solid white 2px;
+}
+div.border{
+  background-color:#303C6C 
+}
+
+.front-button:hover{
+background: white !important;
+border: 1px solid #303C6C !important;
+color: #303C6C !important;
+}
+.back-button:hover{
+  background: white !important;
+  border: 1px solid #303C6C !important;
+  color: #303C6C !important;
+  }
+
+#image-holder {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  /* Box-model */
+  width: 405px;
+
+  /* Typography */
+  text-align: center;
+
+  border: solid #303C6C 3px;
+}
+
+#image-holder2{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+   /* Box-model */
+   width: 405px;
+
+   /* Typography */
+   text-align: center;
+ 
+   border: solid #303C6C 3px;
+}
+
+button.about{
+  color: rgb(255, 255, 255);
+  background:#303C6C;
+}
+@media screen and (max-width: 980px) {
+  .mynameSpace{
+    float: left;
+  }
+}
+
+@media screen and (max-width:768px) {
+  header{
+    width: 100%;
+    
+  }
+  .mynameSpace{
+    float: left;
+  }
+  #outside{
+    width: 100%;
+  }
+  
+  
+}
+
+@media screen and (max-width:640px) {
+ img{
+   width: 100%!important;
+ }
+ img#mblRespons{
+   width: 200% !important;
+   margin-right: 55px!important;
+ }
+ .overlay{
+   width:80%!important;
+ }
+ 
+  
+}
+
+

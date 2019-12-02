@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!--Import Google Icon Font-->
+      <script src="https://kit.fontawesome.com/16ef58d0af.js" crossorigin="anonymous"></script>
+      <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -19,9 +19,9 @@
 <body>
    <!-- navbar -->
    <header>
-    <nav class="nav-wrapper transparent">
+    <nav class="nav-wrapper">
       <div class="container">
-        <a href="#" class="brand-logo">William Gonzales</a>
+        <a href="#" class="brand-logo">WG</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
@@ -40,70 +40,205 @@
           </a></li> -->
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </nav>
+    </nav><br><br><br><br>
+    <div id="firstMessage">
+   <p class="white-text">Hi! My name is William Gonzales<br>
+                         I am a Full Stack Developer.<br>
+                         Let's find out more <a href="#about">about me!</a></p>
+</div>
   </header>
-  <section class="container section scrollspy" id="photos">
+  <section class="container section scrollspy">
     <div class="row">
-      <div class="col s12 l4">
-          <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+      <div class="col s12 l4 push-l8">
+          <img src="./assets/img/portfolio.jpg.jpg" alt="portfolio Picture" class="portfo circle responsive-img materialboxed">
       </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="indigo-text text-darken-4">Portraits</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 l4 offset-l1 push-l7">
-          <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1 pull-l5 right-align">
-        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 l4">
-          <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="indigo-text text-darken-4">Nature</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+      <div class="col s12 l6 offset-l1 pull-l5">
+        <h2 id="about">About Me</h2>
+        <p class="aboutMe">My name is William Gonzales, and I am a web developer from Riverside, CA. I create and troubleshoot websites with a standard understanding and implementation of the front-end and back-end capabilities. It gives me a challenge that I welcome every single day, and I love it!<br><br>
+          I became interested in the field of programming and web development to create something that looks appealing and functions efficiently. I am constantly searching for ways to make some sort of impact and to be influenced by all the upcoming updates in programming. I want to bring some fully functional websites and amazing moments to those I work with in the process.<br><br>
+          I couldn't be more excited and driven to work in an industry that I can be unregrettably invested in. I am constantly improving and looking for opportunities to have a successful future.<br>
       </div>
     </div>
   </section>
-        <!-- <br>
 
-        <div class="row">
-            
-        
-            <div class="col-md-11 text-wrap text-left ml-5">
-                <img src="assets/images/portfolio.jpg.jpg"  height="180px" width="180px" class="float-left mb-1 mr-2 rounded-top rounded-bottom"> 
-            
-                <p>Hi! My name is William Gonzales, and I am a web developer from Riverside, CA. I create and troubleshoot websites with a standard understanding and implementation of the front-end and back-end aspects. It gives me a challenge that I welcome every single day, and I love it!</p>
-                <p>I became interested in the field of programming and web development to create something that looks appealing and functions efficiently. I am constantly searching for ways to make some sort of impact and to be influenced by all the upcoming updates in programming. I want to bring some fully functional websites and amazing moments to those I work with in the process. I couldn't be more excited and driven to work in an industry that I can be unregrettably invested in. I am constantly improving and looking for opportunities to have a successful future.</p>
-                <p>To contact me for any questions or job opportunities, please do not hesitate to email me or message me on Linkedin.</p>
-            </div>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./assets/img/source.gif" alt="" class="responsive-img">
+    </div>
+  </div>
 
-        
-        
-        </div> -->
-        
-        
-        
-     
-        
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="portfolio">
+    <div class="row">
+      <div class="col s12 l4 pull-l1">
+        <h2 class="white-text portfolio" >My Portfolio</h2>
+        <p>My portfolio contains projects with Front-end, Back-end or a Full-Stack capabilities.</p>
+        <p></p>
+      </div>
+      <div class="col s12 l8 push-l1">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s4">
+            <a href="#frontend" class="indigo-text text-darken-4">Front-End</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#backend" class="active indigo-text text-darken-4">Back-End</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#fullstack" class="indigo-text text-darken-4">Full-Stack</a>
+          </li>
+        </ul>
+        <div id="frontend" class="col s12">
+            <p class="flow-text indigo-text text-darken-4"></p>
          
-    <!-- </div> -->
-   <div>
-    <footer>
-        <!-- <h6>WG - 2019</h6> -->
+            <div class="project-list">
+              <hr>
+            <div class="containerImage">
+              <img src="assets/img/musicalityLogo.JPG" alt="MusicalityProj"
+                  class="project" width="150" height="150">
+              <a href="https://philliplaub.github.io/Group-Project/" target="_blank">
+                  <div class="overlay">
+                      <div class="text">Musicality</div>
+                  </div>
+              </a>
+            </div><hr>
+            <div class="containerImage">
+              <img src="assets/img/Giftastic.JPG" id="mblRespons" alt="GifTastic" class="project"
+                  width="150" height="150">
+              <a href="https://wgonz94.github.io/GifTastic/" target="_blank" rel="noopener noreferrer">
+                  <div class="overlay">
+                      <div class="text">Giftastic</div>
+                  </div>
+              </a>
+          </div><hr>
+          <div class="containerImage">
+            <img src="assets/img/TrainScheduler.JPG" alt="TrainScheduler"
+                class="project" width="150" height="150">
+            <a href="https://wgonz94.github.io/Train-Scheduler-/" target="_blank" rel="noopener noreferrer">
+                <div class="overlay">
+                    <div class="text">Train Scheduler</div>
+                </div>
+            </a>
+        </div><hr>
+        <div class="containerImage">
+          <img src="assets/img/psychicgame.JPG" alt="Psychic Game" class="project"
+              width="150" height="150">
+              <a href="https://wgonz94.github.io/Psychic-Game/" target="_blank" rel="noopener noreferrer"><div class="overlay">
+             <div class="text">Psychic Game</div>
+          </div></a>
+      </div>
+
+        </div>
+        </div>
+        <div id="backend" class="col s12">
+            <p class="flow-text indigo-text text-darken-4"></p>
+           <div class="project-list"><hr>
+            <div class="containerImage">
+              <img src="assets/img/movie-this2.JPG" alt="LIRI-Node.js"
+                  class="project" width="150" height="150">
+              <a href="https://github.com/wgonz94/liri-node-app" target="_blank">
+                  <div class="overlay">
+                      <div class="text">LIRI</div>
+                  </div></a>
+          </div><hr>
+          <div class="containerImage">
+              <img src="assets/img/bamazonManagerOpt2.JPG" alt="Bamazon" class="project"
+                  width="150" height="150">
+              <a href="https://github.com/wgonz94/Node.js-MySQL-Bamazon" target="_blank" rel="noopener noreferrer">
+                  <div class="overlay">
+                      <div class="text">Bamazon</div>
+                  </div></a>
+          </div><hr>
+          <div class="containerImage">
+              <img src="assets/img/deployed-homepage.JPG" alt="Friend-Finder"
+                  class="project" width="150" height="150">
+              <a href="https://github.com/wgonz94/Friend-Finder" target="_blank" rel="noopener noreferrer">
+                  <div class="overlay">
+                      <div class="text">Friend Finder</div>
+                  </div></a>
+          </div>
+
+          </div>
+          </div>
+        <div id="fullstack" class="col s12">
+          <p class="flow-text indigo-text text-darken-4"></p>
+          <div class="project-list">
+              <div class="col-3 col-sm-4 containerImage">
+    
+                  <img src="assets/img/burger-homepage.JPG"alt="Burger App" class="project"
+                      width="150" height="150">
+                      <a href="https://github.com/wgonz94/burger" target="_blank" rel="noopener noreferrer"><div class="overlay">
+                     <div class="text">Devour the Burger! App</div>
+                  </div></a>
+
+              </div>
+          </div>
+      </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="assets/img/contact.gif" alt="contact_gif" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact -->
+  <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5 push-l4">
+          <h2 class="white-text">Let's Get In Touch</h2>
+          <p class="contact"> To contact me for any questions or job opportunities, please do not hesitate to email me or message me on Linkedin.</p>
+          
+        </div>
+        <div class="row"></div>
+        <div class="col s12 l5 offset-l2">
+            <div>
+              <i class="material-icons">email</i>
+              <p>Email: wgonz94@gmail.com</p>
+            </div>
+            <div>
+              <p>Linkedin</p>
+              <a href="https://www.linkedin.com/in/william-gonzales-66b337181/">Linked In</a>
+            </div>
+            <div">
+                <i class="far fa-file-alt fa-2x"> Resume</i>
+            </div>
+            
+        </div>
+      </div>
+    </section>
+  
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+w
+          <div class="col l4 push-l5 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 William Gonzales</div>
+      </div>
     </footer>
-</div>
+       
 
  <!-- Compiled and minified JavaScript -->
  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

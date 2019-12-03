@@ -126,6 +126,10 @@ div#fullstack{
   overflow-y: scroll;
   margin-right: 10px;
 }
+
+div.contact{
+  margin: 30px;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 20px;

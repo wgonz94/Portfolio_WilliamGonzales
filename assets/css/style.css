@@ -46,8 +46,10 @@ p.aboutMe{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2.portfolio{
+h1.portfolio{
   border-bottom: dashed whitesmoke 2px;
+  width: 450px;
+  margin-left: 30%;
 }
 
 
@@ -59,7 +61,7 @@ p.contact{
 /* For portfolio projects */
 .containerImage {
   position: relative;
-  width: 50%;
+  width: 25%;
 }
 
 .image {
@@ -99,6 +101,10 @@ p.contact{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+p.description{
+  float: right;
+  width: 650px;
+}
 
 img.project{
   border-radius: 10px;
@@ -106,6 +112,7 @@ img.project{
 }
 div.project-list{
 height: 500px;
+width: auto;
 }
 
 div#frontend{
@@ -133,6 +140,9 @@ div.contact{
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
+}
+p{
+  color: white;
 }
 
 /* Track */

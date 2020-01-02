@@ -1,5 +1,5 @@
-# Bootstrap-Portfolio
+# Portfolio
 
 Link to deployed site:
 
-https://wgonz94.github.io/Bootstrap-Portfolio/
+https://wgonz94.github.io/Portfolio_WilliamGonzales/

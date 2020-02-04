@@ -111,7 +111,7 @@ img.project{
   margin: 10px;
 }
 div.project-list{
-height: 500px;
+height: 350px;
 width: auto;
 }
 
@@ -135,8 +135,9 @@ div#fullstack{
 }
 
 div.contact{
-  margin: 30px;
-  text-align: center;
+  margin: 15px;
+  text-align: left;
+  margin-left: 23%;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -172,7 +173,6 @@ p{
 @media screen and (max-width:768px) {
   header{
     width: 100%;
-    
   }
   .mynameSpace{
     float: left;
@@ -180,8 +180,22 @@ p{
   #outside{
     width: 100%;
   }
-  
-  
+  h2#about{
+    font-size: 60px;
+  }
+  p.aboutMe{
+    font-size: 25px;
+  }
+  img.portfo.circle.responsive-img.materialboxed{
+    width: 80%;
+    height: 80%;
+    margin-left: 11.5%;
+  }
+  p.description{
+    width: 60%;
+    font-size: 15px;
+    margin: 5px;
+  }
 }
 
 @media screen and (max-width:640px) {

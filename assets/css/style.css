@@ -52,9 +52,13 @@ h1.portfolio{
   margin-left: 30%;
 }
 
-
+h2.contact{
+  text-align: center;
+  margin-left: 15%;
+}
 p.contact{
   text-align: center;
+  margin-left: 15%;
   color: whitesmoke;
   font-size: 16px;
 }
@@ -135,8 +139,8 @@ div#fullstack{
 }
 
 div.contact{
-  margin: 15px;
-  text-align: left;
+  margin: 20px;
+  text-align: center;
   margin-left: 23%;
 }
 /* width */
